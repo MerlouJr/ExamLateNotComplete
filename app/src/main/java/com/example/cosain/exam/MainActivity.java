@@ -94,7 +94,7 @@ public class MainActivity extends Activity implements SeekBar.OnSeekBarChangeLis
 
 
         value = progress;
-        pfft.setText(value + "%");
+        pfft.setText(value + " % ");
 
         double sum =((mnum1 / mnum2 / 10)+ (0.010* value));
         int sum2 = mnum1 / mnum2 + value;
